@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dasbor Saya</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        h1 { text-align: center; }
+        .dashboard-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 65%; /* Adjust this percentage to fit your dashboard's aspect ratio */
+        }
+        .dashboard-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dasbor Analisis Kinerja Penjualan</h1>
+    <p>Ini adalah analisis interaktif mengenai kinerja penjualan selama Q1 2025. Silakan gunakan filter di bawah untuk menjelajahi data.</p>
+
+    <div class="dashboard-container">
+      <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/c9587686-42ea-456e-8b51-722ef9b34495/page/2T5NF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        </div>
+
+    <p style="text-align: center; margin-top: 30px;">
+        Dibuat dengan Looker Studio dan dihosting di GitHub Pages.
+    </p>
+
+</body>
+</html>
